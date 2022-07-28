@@ -679,7 +679,7 @@ button::-moz-focus-inner {
     background-color: #ff8b00;
     border-radius: 4px;
     position: relative;
-    z-index: 2;
+    z-index: 1;
     -webkit-transition: .3s;
     -o-transition: .3s;
     transition: .3s
@@ -770,7 +770,7 @@ button::-moz-focus-inner {
     opacity: .5;
     top: 0;
     left: 0;
-    z-index: 1
+    z-index: 2
 }
 
 .section-popup__mov {
@@ -1963,6 +1963,14 @@ html {
 
     .section-four__title {
         font-size: 32px
+    }
+
+    .section-popup__mov.active {
+        top: 44%;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0)
     }
 
     .footer .container {
