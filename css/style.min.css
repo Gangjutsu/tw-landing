@@ -261,7 +261,7 @@ button::-moz-focus-inner {
     border-bottom: 4px solid #ff8b00
 }
 
-.header .active {
+.header .active-item {
     border-bottom: 4px solid #ff8b00;
     padding-left: 5px;
     padding-right: 5px;
