@@ -510,7 +510,7 @@ button::-moz-focus-inner {
     content: "";
     display: block;
     position: absolute;
-    background: url(/img/icons/arrow.svg);
+    background: url(../img/icons/arrow.svg);
     background-repeat: no-repeat;
     width: 46px;
     height: 46px;
@@ -1234,7 +1234,7 @@ button::-moz-focus-inner {
 
 .menu-nav__title::before {
     content: "";
-    background-image: url(/img/icons/slider-button-orange.svg);
+    background-image: url(../img/icons/slider-button-orange.svg);
     background-repeat: no-repeat;
     position: absolute;
     background-position: 100% 50%;
