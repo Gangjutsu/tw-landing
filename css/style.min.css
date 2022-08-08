@@ -397,7 +397,7 @@ button::-moz-focus-inner {
 
 .swiper-pagination-bullet {
     background: 0 0;
-    background-image: url(img/icons/slider-button.svg);
+    background-image: url(../img/icons/slider-button.svg);
     background-repeat: no-repeat;
     background-position: 50% 0;
     width: 23px;
@@ -407,7 +407,7 @@ button::-moz-focus-inner {
 }
 
 .swiper-pagination-bullets .swiper-pagination-bullet-active {
-    background-image: url(img/icons/slider-button-orange.svg);
+    background-image: url(../img/icons/slider-button-orange.svg);
     background-repeat: no-repeat;
     background-position: 50% 0;
     width: 23px;
